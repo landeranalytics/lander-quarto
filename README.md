@@ -1,2 +1,9 @@
-# quarto-theme
-Lander Analytics slide deck theme
+# Lander theme for quarto revealjs presentations
+
+This is an example presentation built using the Lander theme.
+
+## Usage
+
+```
+quarto use template LanderAnalytics/quarto-theme
+```

@@ -1,0 +1,80 @@
+---
+title: "Lander Analytics quarto Deck Theme"
+author: "{your name}"
+format:
+  revealjs: 
+    theme: [default, css/lander.scss]
+title-slide-attributes:
+    data-background-image: img/logo-bw.png
+    data-background-size: 10%
+    data-background-position: 2% 2%
+editor: source
+---
+
+## 
+
+:::: {.columns}
+
+::: {.column width="35%"}
+<img src="img/logo-bw.png" style="display: block; width: 65%;  margin: 70px auto auto auto;">
+:::
+
+::: {.column width="65%"}
+<h2>Agenda</h2>
+- Agenda item 1
+- Agenda item 2 that is really really long
+- Agenda item 3
+- Agenda item 4
+- Agenda item 5
+:::
+
+::::
+
+
+
+# Section Header 1
+
+## Slide with bullets
+
+- Turn off alarm
+- Get out of bed
+- A [url](https://www.landeranalytics.com)
+
+## Slide with tabsets
+
+::: {.panel-tabset}
+
+### Tab A
+
+Content for `Tab A`
+
+### Tab B
+
+Content for `Tab B`
+
+:::
+
+# Section Header 2
+
+## Slide with a code block
+
+```{.python code-line-numbers="7,9"}
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
+
+
+## Slide I want to emphasize {background-color="#333333"}
+
+My content
+
+<!-- ending slide --> 
+# {background-image="img/logo-bw.png" background-size="300px"}

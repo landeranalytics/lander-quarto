@@ -1,3 +1,6 @@
+template_files
+template.html
+
 # History files
 .Rhistory
 .Rapp.history
