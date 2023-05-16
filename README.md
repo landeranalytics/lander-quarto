@@ -5,5 +5,5 @@ This is an example presentation built using the Lander theme.
 ## Usage
 
 ```
-quarto use template LanderAnalytics/quarto-theme
+quarto use template LanderAnalytics/lander-quarto
 ```
