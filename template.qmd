@@ -4,10 +4,13 @@ author: "{your name}"
 format:
   revealjs: 
     theme: [default, css/lander.scss]
+    include-in-header: img/favicon.html
+    logo: img/logo-bw.png
+    # footer: LanderAnalytics.com
 title-slide-attributes:
-    data-background-image: img/logo-bw.png
-    data-background-size: 10%
-    data-background-position: 2% 2%
+    data-background-image: img/logo-square-transparent.png
+    data-background-size: 20%
+    data-background-position: 50% 10%
 editor: source
 ---
 
